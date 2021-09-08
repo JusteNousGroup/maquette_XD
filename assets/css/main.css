@@ -1,0 +1,330 @@
+body{
+background-color: rgb(1, 1, 17);
+font-family: sans-serif;
+color: white;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a{
+    text-decoration: none;
+    padding: 7px;
+    color: white;
+}
+.network{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    position: absolute;
+    right: 50px;
+    top: 20px;
+}
+#network1{
+    position: relative;
+    right: 50px;
+}
+#network2{
+    position: relative;
+    right: 25px;
+}
+.greetings{
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    left: 55px;
+    
+}
+.names{
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    left: 55px;
+    bottom: 74%;
+
+}
+.first{
+    width: 480px;
+    position: absolute;
+    left: 61%;
+    border: 1px solid transparent;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(70px);
+    font-size: 14px;
+}
+.first p, h3{
+    position: relative;
+    left: 10px;
+}
+#highlight{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    position: relative;
+    right: 34%;
+    font-size: 14px;
+}
+.system{
+    width: 400px;
+    position: relative;
+    top: 180px;
+    left: 40px;
+}
+.system p{
+    position: relative;
+    left: 11px;
+}
+.second{
+    width: 480px;
+    position: absolute;
+    left: 61%;
+    bottom: 35%;
+    border: 1px solid transparent;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(70px);
+    font-size: 14px;
+}
+.second p, h3{
+    position: relative;
+    left: 10px;
+}
+.link a{
+    color: white;
+    position: relative;
+    top: 180px;
+    left: 50px;
+}
+.client{
+    width: 400px;
+    position: relative;
+    top: 250px;
+    left: 40px;
+}
+.logo{
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    left: 44%;
+    bottom: 10%;
+width: 700px;
+}
+.logosecond{
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    left: 44%;
+    top: 96%;
+width: 700px;  
+}
+.advantage{
+    position: absolute;
+    top: 120%;
+    left: 40px; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 94%;
+    flex-wrap: wrap;
+}
+.box1{
+    width: 300px;
+    height: 300px;
+    position: relative;
+    bottom: 20px;
+    left: 5px;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(70px);
+}
+.box1 h3{
+margin: auto;
+width: 87%;
+padding-top: 20px;
+}
+.box1 p{
+    margin: auto;
+    width: 80%;
+    padding-top: 30px;
+}
+.box1 a{
+ position: relative;
+ left: 30px;
+ top: 15px;
+ color: white;
+}
+.box2{
+    width: 300px;
+    height: 300px;
+    position: relative;
+    bottom: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(70px);
+}
+.box2 h3{
+    margin: auto;
+    width: 55%;
+    padding-top: 20px;
+    padding-right: 95px;
+    right: 400px;
+    }
+    .box2 p{
+        margin: auto;
+        width: 80%;
+        padding-top: 30px;
+    }
+    .box2 a{
+     position: relative;
+     left: 30px;
+     top: 35px;
+     color: white;
+    }
+.box3{
+    width: 300px;
+    height: 300px;
+    position: relative;
+    bottom: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(70px);
+}
+.box3 h3{
+    margin: auto;
+    width: 60%;
+    padding-top: 20px;
+    padding-right: 80px;
+    right: 400px;
+    }
+    .box3 p{
+        margin: auto;
+        width: 80%;
+        padding-top: 30px;
+    }
+    .box3 a{
+     position: relative;
+     left: 30px;
+     top: 14px;
+     color: white;
+    }
+.work{
+    width: 300px;
+    height: 300px;
+    position: relative;
+    bottom: 20px;
+    text-align: end;
+}
+.work a{
+    color: white;
+}
+.img1, .img2, .img3{
+    margin: auto;
+    width: 80%;
+    position: relative;
+    top: 25px;
+    height: 120px;
+}
+.num{
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 1300px;
+    padding-bottom: 350px;
+   left: 40px;
+}
+.form1{
+    width: 210px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: relative;
+    top: 900px;
+    left: 20px;
+}
+.form1 p{
+    position: relative;
+    left: 10px;
+}
+.form2{
+    width: 250px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: relative;
+    top: 900px;
+    left: 20px;
+}
+.form2 p{
+    position: relative;
+    left: 10px;
+}
+.formulaire{
+    position: absolute;
+    top: 1250px;
+    width: 400px;
+    left: 67%;
+    height: 400px;
+    border: 1px solid transparent;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(70px);
+    font-size: 14px;
+    margin: auto;
+}
+.formu #input1{
+    width: 80%;
+    position: relative;
+    left: 37px;
+    top: 20px;
+    height: 40px;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(70px);
+    border: none;
+    outline: none;
+    color: white;
+}
+
+.formu #input2{
+    width: 80%;
+    position: relative;
+    left: 37px;
+    top: 40px;
+    height: 40px;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(70px);
+    border: none;
+    outline: none;
+    color: white;
+}
+.formu #select{
+    width: 80%;
+    position: relative;
+    left: 37px;
+    top: 60px;
+    height: 40px;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(70px);
+    color: white;
+}
+.formu #textarea{
+    width: 79%;
+    position: relative;
+    left: 37px;
+    top: 80px;
+    height: 90px;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(70px);
+    color: white;
+    border: none;
+    outline: none;
+    color: white;
+}
+.formu #p1{
+    position: relative;
+    top: 70px;
+    left: 37px;
+}
+.formu #p2{
+    position: absolute;
+    top: 310px;
+    left: 100px;
+}
+#input1::placeholder, #input2::placeholder, #textarea::placeholder{
+    color: white;
+}
